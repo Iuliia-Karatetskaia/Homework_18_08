@@ -1,0 +1,33 @@
+body{
+    overflow: hidden;
+}
+
+.container{
+    display: flex;
+    width: auto;
+    height: auto;
+}
+
+.container-image{
+    width: 200px;
+    height: 250px;
+    position: relative;
+    display: block;
+}
+
+.image{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+}
+
+.koala-image{
+    top: 500px;
+    left: 500px;
+}
+
+.panda-image{
+    bottom: 0;
+    left: 700px;
+}
+
